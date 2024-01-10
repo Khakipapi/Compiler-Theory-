@@ -1,0 +1,10 @@
+function doSomething(flag: boolean) returns integer;
+begin
+    // something
+end;
+
+function main returns integer;
+begin
+    int num = 42;
+    doSomething(num);  // Expecting a boolean argument, but got an integer
+end;
